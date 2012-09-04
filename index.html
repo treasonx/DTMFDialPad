@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Tone Generator</title>
+  <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">
+</head>
+<body>
+  <div id="wrapper">
+    <form id="numberForm" method="get" accept-charset="utf-8">
+      <table class="dialpad">
+        <tr>
+          <td><div class="button"><span class="number">1</span></div></td>
+          <td><div class="button"><span class="letters">ABC</span><span class="number">2</span></div></td>
+          <td><div class="button"><span class="letters">DEF</span> <span class="number">3</span></div></td>
+        </tr>
+        <tr>
+          <td><div class="button"><span class="letters">GHI</span> <span class="number">4</span></div></td>
+          <td><div class="button"><span class="letters">JKL</span> <span class="number">5</span></div></td>
+          <td><div class="button"><span class="letters">NMO</span> <span class="number">6</span></div></td>
+        </tr>
+        <tr>
+          <td><div class="button"><span class="letters">PRS</span><span class="number">7</span></div></td>
+          <td><div class="button"><span class="letters">TUV</span> <span class="number">8</span></div></td>
+          <td><div class="button"><span class="letters">WXY</span> <span class="number">9</span></div></td>
+        </tr>
+        <tr>
+          <td><div class="button"><span class="number">*</span></div></td>
+          <td><div class="button"><span class="letters">OPER</span><span class="number">0</span></div></td>
+          <td><div class="button"><span class="number">#</span></div></td>
+        </tr>
+      </table> 
+      <table class="dialpad">
+
+        <tr>
+          <td colspan="2">
+            <strong>Speed Dial</strong>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+        <input type="text" placeholder="1234567890*#,"  pattern="(\d|\*|#|,)+" id="number" value=""> 
+          </td>
+        </tr>
+        <tr>
+          <td>
+          
+        <input class="button" type="submit" id="go" value="Send">
+        </td>
+        <td>
+        <input class="button" type="reset"  value="Clear">
+          </td>
+        </tr>
+      </table>
+
+    </form>
+  <div class="dialpad">
+    <strong>Speed Dial History</strong>
+    <ul>
+    </ul>
+  </div>
+<!-- Place this tag where you want the +1 button to render. -->
+  <footer>
+  <div  class="author">DTMF Dial Pad <br> by James Morrin</div>
+  <div class="plusone">
+  <div class="g-plusone" data-size="small" data-href="https://plus.google.com/106674157563775429543/posts/756eT3MyPUf"></div>
+  </div>
+  </footer>
+</div>
+
+<!-- Place this tag after the last +1 button tag. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+  <script type="text/javascript" charset="utf-8" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="dtmf.js"></script>
+</body>
+</html>

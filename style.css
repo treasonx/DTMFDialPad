@@ -1,0 +1,86 @@
+.dialpad {
+  width: 207px;
+  height: 161px;
+  margin: 15px auto;
+  border: 1px solid silver;
+  border-radius: 4px;
+  padding: 3px;
+  text-align: center;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+
+li {
+  padding: 3px 0 3px 5px;
+  margin: 0;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #cecece;
+  border-radius: 3px;
+}
+
+form {
+margin-bottom: 9px;
+}
+
+.letters{
+font-size: 10px;
+color: gray;
+position: absolute;
+margin: -13px 0 0 -7px;
+
+}
+
+.plusone {
+}
+
+.author {
+font-size: 10px;
+color: silver;
+margin-bottom: 9px;
+}
+
+#wrapper {
+width: 225px;
+padding-bottom: 50px;
+margin: 0 auto;
+max-height: 500px;
+overflow-y: auto;
+overflow-x: none;
+}
+
+#number {
+width: 199px;
+height: 25px;
+border-radius: 7px;
+font-size: 16px;
+text-align: center;
+letter-spacing: 0.1em;
+}
+
+.button {
+  position: relative;
+  width: 64px;
+border: 1px solid black;
+border-radius: 7px;
+padding-top: 15px;
+padding-bottom: 15px;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(241,241,241,1)), color-stop(51%,rgba(225,225,225,1)), color-stop(100%,rgba(246,246,246,1))); /* Chrome,Safari4+ */
+}
+
+.button:hover {
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,246,246,1)), color-stop(44%,rgba(225,225,225,1)), color-stop(91%,rgba(241,241,241,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+  cursor: pointer;
+}
+
+.button:active {
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,246,246,1)), color-stop(0%,rgba(225,225,225,1)), color-stop(100%,rgba(241,241,241,1))); /* Chrome,Safari4+ */
+}
