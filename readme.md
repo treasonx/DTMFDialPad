@@ -7,7 +7,7 @@ This project is a simple touch tone dial pad which is written to run in two envi
 
 ## Webkit
 
-The webkit version uses pure Web Audio api to generate the tones. This was my first attempt but it failed in the google hangout environment. I couldnt find an easy way to play the tones into the hangout without losing quality. I tought it was pretty cool so I kept the functionality for use in developing the gadget outside of the hangout.
+The webkit version uses pure Web Audio api to generate the tones. This was my first attempt but it failed in the google hangout environment. I couldnt find an easy way to play the tones into the hangout without losing quality. I thought it was pretty cool so I kept the functionality for use in developing the gadget outside of the hangout.
 
 ## Google Hangout
 
