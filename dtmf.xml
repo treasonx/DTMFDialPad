@@ -3,7 +3,6 @@
 <Module>
   <ModulePrefs title="Dial Pad" width="560">
   <Require feature="rpc"/>
-  <Require feature="views"/> 
   <Require feature="locked-domain" />
   <Require feature="dynamic-height"/>
 
